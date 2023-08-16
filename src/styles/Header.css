@@ -1,0 +1,22 @@
+.Container {
+    background-color: #4AF;
+    height: 120px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Logo {
+    height: 80px;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+    margin-left: 40px;
+}
+
+.Title {
+    font-size: 3em;
+    margin-left: auto;
+    margin-right: 40px;
+}
