@@ -1,14 +1,14 @@
-import Index from '../Header';
-import ImageGrid from '../ImageGrid';
-
 import './App.css';
+
+import Header from '../Header';
+import ImageGrid from '../ImageGrid';
 
 const App = () => {
     return (
-        <>
-            <Index />
+        <div class="AppContainer">
+            <Header />
             <ImageGrid />
-        </>
+        </div>
     );
 };
 

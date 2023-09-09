@@ -1,4 +1,4 @@
-.Container {
+.HeaderContainer {
     background-color: #402471;
     height: 120px;
     color: white;
@@ -7,7 +7,7 @@
     align-items: center;
 }
 
-.Logo {
+.HeaderLogo {
     height: 80px;
     pointer-events: none;
     top: 0;
