@@ -1,5 +1,6 @@
-import '../styles/ImageGrid.css';
 import {createSignal, For} from "solid-js";
+
+import './ImageGrid.css';
 
 
 function ImageGrid() {
@@ -10,7 +11,6 @@ function ImageGrid() {
         fetch('https://picsum.photos/v2/list')
             .then((response) => response.json())
             .then((data) => {
-                // increment id by 1 to avoid 0
                 data.forEach((item) => item.id++);
                 setImages(data.map((item) => item.id));
             });
